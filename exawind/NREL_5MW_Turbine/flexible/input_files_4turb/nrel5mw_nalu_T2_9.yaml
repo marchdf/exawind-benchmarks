@@ -333,7 +333,7 @@ realms:
   sideset_writers:
   - name: boundary_output
     output_data_base_name: blades9/blades_T2.exo
-    output_frequency: 16
+    output_frequency: 12
     target_name: [blade1, blade2, blade3]
     output_variables:
     - pressure
@@ -343,7 +343,7 @@ realms:
     - mesh_displacement
   - name: tower_boundary_output
     output_data_base_name: tower9/tower_T2.exo
-    output_frequency: 16
+    output_frequency: 12
     target_name: [tower-wall]
     output_variables:
     - pressure

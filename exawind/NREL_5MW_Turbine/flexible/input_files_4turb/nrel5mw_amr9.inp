@@ -92,7 +92,7 @@ ABL.deltaV                               = 1.0
 ABL.perturb_temperature                  = true                
 ABL.theta_amplitude                      = 0.8                 
 ABL.cutoff_height                        = 50.0                
-time.plot_interval                       = 16                  
+time.plot_interval                       = 12                  
 io.plot_file                             = aw-out/plt          
 io.derived_outputs                       = q_criterion mag_vorticity
 
